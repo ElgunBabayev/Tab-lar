@@ -1,0 +1,28 @@
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tabs {
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  background-color:rgb(175, 175, 175);
+  border-radius: 5px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  background-color: rgb(156, 111, 58);
+}
+
+.go-center {
+  text-align: center;
+}
